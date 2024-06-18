@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Stream</title>
+</head>
+<body>
+    <h1>Video Stream</h1>
+    <form method="POST" action="/start">
+        <label for="rtsp_url">RTSP URL:</label>
+        <input type="text" id="rtsp_url" name="rtsp_url" value="http://192.168.1.25:8080/video">
+        <button type="submit">Start</button>
+    </form>
+    <form method="POST" action="/stop">
+        <button type="submit">Stop</button>
+    </form>
+    <div>
+        <img src="{{ url_for('video_feed') }}">
+    </div>
+</body>
+</html>
