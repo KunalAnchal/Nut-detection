@@ -149,7 +149,6 @@ def display_frames():
 if __name__ == "__main__":
     try:
         rtsp_url = "http://192.168.1.25:8080/video"
-        # rtsp_url = video_path
 
         capture_thread = threading.Thread(target=capture_frames, args=(rtsp_url,))
         capture_thread.start()
