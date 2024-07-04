@@ -3,7 +3,7 @@ cvzone==1.5.6
 ultralytics~=8.0.229
 hydra-core>=1.2.0
 matplotlib>=3.2.2
-numpy>=1.26.4
+numpy>=1.20.0
 opencv-python
 Pillow>=7.1.2
 PyYAML>=5.3.1
@@ -20,7 +20,10 @@ supervision~=0.17.1
 sendgrid~=6.11.0
 influxdb-client
 tkinter
-libgl1-mesa-glx   # Add this line for OpenGL library
+
+# Upgrade pip to the latest version
+--upgrade pip
+
 
 
 
