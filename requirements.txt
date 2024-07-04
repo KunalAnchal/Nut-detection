@@ -1,8 +1,8 @@
 flask
 cvzone==1.5.6
+libgl1-mesa-glx
 ultralytics~=8.0.229
 hydra-core>=1.2.0
-matplotlib>=3.2.2
 numpy>=1.26.4
 opencv-python
 Pillow>=7.1.2
@@ -16,8 +16,5 @@ filterpy==1.4.5
 scikit-image==0.19.3
 lap==0.4.0
 inference~=0.9.7
-supervision~=0.17.1
-sendgrid~=6.11.0
-influxdb-client
-tkinter
-libgl1-mesa-glx   # Add this line for OpenGL library
+
+   
