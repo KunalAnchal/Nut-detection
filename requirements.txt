@@ -1,6 +1,5 @@
 flask
 cvzone==1.5.6
-libgl1-mesa-glx
 ultralytics~=8.0.229
 hydra-core>=1.2.0
 numpy>=1.26.4
